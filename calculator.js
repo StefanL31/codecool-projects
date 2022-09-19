@@ -1,13 +1,7 @@
-//let number1 = 10;
-//let number2 = 0;
-//let operator1 = '+';
-//let operator2 = '-';
-//let operator3 = '*';
-// let operator4 = '/';
 // Implement flowchart "Calculator" here.
 function calculate (number1, number2, operator) {
-  
-    if (number1 == false){
+    //first number
+    if (number1 == isNaN){
         return 'Invalid input, try again';
     } 
     // Operation (+, -, *, /): ")
@@ -15,7 +9,7 @@ function calculate (number1, number2, operator) {
         return 'Invalid input, try again';
     }
     // Second number
-    if (number2 == false) {
+    if (number2 == isNaN) {
         return 'Invalid input, try again';
     }
     
@@ -36,19 +30,13 @@ function calculate (number1, number2, operator) {
 
 }
 
-console.log (calculate(10 ,5 , "*"));
+console.log (calculate(1 ,10 , "*"));
 // First number
-// if (number1 = false){
-//     console.log ('Invalid input, try again');
-// } 
+
 // // Operation (+, -, *, /): ")
-// if (operator1 == false || operator2 == false || operator3 == false || operator4 == false) {
-//     console.log ('Invalid input, try again')
-// }
+
 // // Second number
-// if (number2 = false) {
-//     console.log ('Invalid input, try again')
-// }
+
 // Possible outcomes:
 // - Invalid input, try again
 // - Division by zero is not allowed

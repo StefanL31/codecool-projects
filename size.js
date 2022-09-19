@@ -1,4 +1,4 @@
-let number = 95;
+let number = 5;
 
 // Implement flowchart "Size" here.
 

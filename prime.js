@@ -1,11 +1,10 @@
 // Implement flowchart "Prime" here.
-let number = 7;
+let number = 2;
 let isPrime = true;
 // Give me an integer (greater than 1)
 if (number === 1) {
     console.log ("Not an integer!");
-} 
-if (number < 2) {
+} else if (number < 2) {
     console.log ("Too small");
 }
 if (number > 1) {
